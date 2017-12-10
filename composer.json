@@ -1,0 +1,47 @@
+{
+    "name": "mavision/framework",
+    "description": "The Mavision Framework.",
+    "keywords": ["framework", "mavision" , "php"],
+    "license": "MIT",
+    "support": {},
+    "authors": [
+        {
+            "name": "Marwen Hlaoui",
+            "email": "marwenhlaoui@gmail.com",
+            "homepage": "http://marwenhlaoui.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "doctrine/inflector": "~1.1",
+        "vlucas/phpdotenv": "~2.2"
+    },
+    "replace": {},
+    "require-dev": {},
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Jewel\\": "src/Jewel/"
+        }
+    },
+    "autoload-dev": {
+        "files": []
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "suggest": {
+        "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.5).",
+        "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4)."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
