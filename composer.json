@@ -31,8 +31,8 @@
         "files": []
     },
     "suggest": {
-        "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.5).",
-        "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4)."
+        "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.5)",
+        "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4)"
     },
     "config": {
         "sort-packages": true
