@@ -30,11 +30,6 @@
     "autoload-dev": {
         "files": []
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    },
     "suggest": {
         "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.5).",
         "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4)."
